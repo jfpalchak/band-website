@@ -41,6 +41,10 @@
 #header{
     font-size: 50px;
     color: rgb(250, 88, 0);
+    background-color: rgb(146, 100, 70);
+    border-radius: 10px;
+    text-align: center;
+    width: 950px;
 }
 
 .emphasize {
@@ -54,6 +58,9 @@
     padding: 10px;
     font-weight: bolder;
     color: #311b89;
+    background-color: rgb(218, 206, 230);
+    border-radius: 10px;
+    font-size: 21px;
 }
 
 body {
