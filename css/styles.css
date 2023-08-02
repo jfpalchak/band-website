@@ -1,0 +1,22 @@
+.calendar {
+    float: left;
+    border: 1px black solid; 
+    width: 150px;
+    text-align: left;
+}
+
+.calendar ul{
+    list-style: none;
+}
+
+.calendar li {
+    padding:8px;
+}
+
+#date {
+    font-weight: bold;
+}
+
+#bands {
+    width: 250px;
+}
