@@ -1,6 +1,6 @@
 .calendar {
     float: left;
-    border: 1px black solid; 
+    border-radius: 10px;
     width: 150px;
     margin: 5px;
 }
@@ -15,14 +15,47 @@
 
 #date {
     font-weight: bold;
-    background-color: paleturquoise;
+    background-color: rgb(7, 79, 78);
+    text-align: right;
+    color: white; 
 }
 
 #bands {
     width: 250px;
+    text-align: left;
+    background-color: rgb(221, 200, 11);
 }
 
 .image {
     float:left;
     margin: 5px;
+    border-radius: 10px;
+    display: block;
+}
+
+.banner {
+    display: block;
+    box-sizing: border-box;
+}
+
+#header{
+    font-size: 50px;
+    color: rgb(250, 88, 0);
+}
+
+.emphasize {
+    font-style: italic;
+}
+
+.lorem {
+    text-align: left;
+    display: block;
+    width:400px;
+    padding: 10px;
+    font-weight: bolder;
+    color: #311b89;
+}
+
+body {
+    background-color: rgb(249, 244, 224);
 }
